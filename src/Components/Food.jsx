@@ -39,7 +39,7 @@ setfood(
           <button onClick={(e)=>filterfood("All")} className="border border-orange-600 hover:bg-black hover:font-bold">All</button>
           <button onClick={(e)=>filterfood("burger")} className="border border-orange-600 hover:bg-black hover:font-bold">Burgers</button>
           <button onClick={(e)=>filterfood("pizza")} className="border border-orange-600 hover:bg-black hover:font-bold">Pizza</button>
-          <button onClick={(e)=>filterfood("salad")} className="border border-orange-600 hover:bg-black hover:font-bold">Salad</button>
+          {/* <button onClick={(e)=>filterfood("salad")} className="border border-orange-600 hover:bg-black hover:font-bold">Salad</button> */}
           <button onClick={(e)=>filterfood("chicken")} className="border border-orange-600 hover:bg-black hover:font-bold">Chicken</button>
         </div>
       </div>
