@@ -26,7 +26,7 @@ setfood(
 }
 //   const setfood()
   return (
-    <div className="max-w-[1640px] p-4 flex flex-col space-y-4">
+    <div className="max-w-[1640px] mx-auto p-4 flex flex-col space-y-4">
       <div className="flex justify-center items-center">
         <h2 className="text-3xl font-bold text-orange-600">
           Top Rated Menu Items
@@ -35,7 +35,7 @@ setfood(
       <div className="flex flex-col lg:flex-row justify-between">
       <div className="flex flex-col text-orange-600 space-y-3">
         <p className="md:pl-6">Filter type</p>
-        <div className="flex flex-row space-x-2 md:pl-6 ">
+        <div className="sm:flex sm:flex-row sm:space-x-2 md:pl-6 grid grid-cols-2 gap-3 ">
           <button onClick={(e)=>filterfood("All")} className="border border-orange-600 hover:bg-black hover:font-bold">All</button>
           <button onClick={(e)=>filterfood("burger")} className="border border-orange-600 hover:bg-black hover:font-bold">Burgers</button>
           <button onClick={(e)=>filterfood("pizza")} className="border border-orange-600 hover:bg-black hover:font-bold">Pizza</button>
@@ -43,7 +43,7 @@ setfood(
           <button onClick={(e)=>filterfood("chicken")} className="border border-orange-600 hover:bg-black hover:font-bold">Chicken</button>
         </div>
       </div>
-      <div className="flex flex-col  text-orange-600 space-y-3">
+      <div className="flex flex-col  text-orange-600 space-y-3 mt-6">
         <p className="md:pl-6">Fixed Price</p>
         <div className="flex flex-row space-x-2 md:pl-6 ">
           <button onClick={(e)=>filterprice("$")} className="border border-orange-600 hover:bg-black hover:font-bold">$</button>

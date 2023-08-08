@@ -2,7 +2,7 @@ import React from "react";
 
 const HeadLineCards = () => {
   return (
-    <div className="max-w-[1640px] p-4 grid md:grid-cols-3  gap-3">
+    <div className="max-w-[1640px] mx-auto p-4 grid md:grid-cols-3 gap-3">
       <div className="relative max-h-[500px] rounded-full hover:scale-90">
         <div className="bg-black/40 absolute w-full h-full text-white justify-center items-center  flex flex-col rounded-3xl ">
           <p className="text-lg pt-1  font-bold">Suns out Daily</p>
